@@ -14,7 +14,7 @@ class Listener {
         );
         const result = await this._mailSender.sendEmail(
           targetEmail,
-          JSON.stringify(playlists)
+          JSON.stringify({ playlists })
         );
         console.log(result);
       } catch (error) {
