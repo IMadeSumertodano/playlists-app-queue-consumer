@@ -37,7 +37,6 @@ class PlaylistsService {
     return {
       id,
       name,
-      username,
       songs,
     };
   }
